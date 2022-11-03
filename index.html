@@ -2,51 +2,57 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>A-level CS HTML</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Top 5 Elements</title>
+  <link href="stylesheet.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <div>
-    <h1 class="violetHeading">World of Puppies</h1>
-    <div class="bgContent contentCentred">
-      <p class="violetBody">Spicy Enchilada</p>
-      <p id="demo" class="violetBody">Click to change content using a JavaScript function!</p>
-      <button type="button" onclick=changeText()>Click Me!</button>
-      <p class="violetBody">
-        <a href="https://thekennelclub.org.uk/">Click here for more on puppies</a>
-      </p>
-      <br>
-      <img src="images/dog1.jpg" style="height:160px">
-      <img src="images/dog2.webp" style="height:160px">
-    </div>
-    <div class="bgContent"">
-      <ol>
-        <li>German shepherd</li>
-        <li>Doberman</li>
-        <li>Poodle</li>
-        <li>Cocker spaniel</li>
-        <li>Blue heeler</li>
-      </ol>
-      <ul>
-        <li>Donny</li>
-        <li>Leo</li>
-        <li>Mikey</li>
-        <li>Splinter</li>
-        <li>Rafa</li>
-      </ul>
-    </div>
-    <div class="bgContent bordered">
-      <form action="/action_page.php">
-        <input type="text" id="fname" name="fname" placeholder="First name">
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname" value="Doe">
-        <input type="submit" value="Submit">
-    </div>
-
-    <script src="script.js"></script>
+  <div class="header borderDefault borderHeading">
+    <h1>Top five elements</h1>
+    <p class="subtitle">RANKED BY ABUNDANCE</p>
+  </div>
+  <div class="entry borderDefault">
+    <p class="rank">ONE</p>
+    <h2 class="nameHeading">Hydrogen<span class="atomicNumber">-1</span></h2>
+    <p class="description">Hydrogen is the most abundant element, constituting roughly 75% of all normal matter. It is also the lightest element. It fuses with other hydrogen nuclei to form heavier elements.</p>
+    <img src="images/HYDROGEN.png" class="spectrum" title="Spectral lines of hydrogen">
+    <p class="statistic right">705,700 PARTS PER MILLION</p>
+  </div>
+  <div class="entry borderDefault">
+    <p class="rank">TWO</p>
+    <h2 class="nameHeading">Helium<span class="atomicNumber">-4</span></h2>
+    <p class="description">Helium is the second most abundant element in our solar system. It is inert, so it does not readily react with other chemical substances. Did you know that it was discovered in 1868?</p>
+    <img src="images/HELIUM.png" class="spectrum" title="Spectral lines of helium">
+    <p class="statistic right">275,200 PARTS PER MILLION</p>
+  </div>
+  <div class="entry borderDefault">
+    <p class="rank">THREE</p>
+    <h2 class="nameHeading">Oxygen<span class="atomicNumber">-16</span></h2>
+    <p class="description">Oxygen is actually the most abundant element on Earth, which is handy when you consider that we need it to breathe. You can put out fires by removing the source of oxygen.</p>
+    <img src="images/OXYGEN.png" class="spectrum" title="Spectral lines of oxygen">
+    <p class="statistic right">9,592 PARTS PER MILLION</p>
+  </div>
+  <div class="entry borderDefault">
+    <p class="rank">FOUR</p>
+    <h2 class="nameHeading">Carbon<span class="atomicNumber">-12</span></h2>
+    <p class="description">Carbon is the backbone of organic chemistry and it has several allotropes, including diamond and graphite. The melting point of carbon is really high - 3,550°C, specifically.</p>
+    <img src="images/CARBON.png" class="spectrum" title="Spectral lines of carbon">
+    <p class="statistic right">3,032 PARTS PER MILLION</p>
+  </div>
+  <div class="entry borderDefault">
+    <p class="rank">FIVE</p>
+    <h2 class="nameHeading">Nitrogen<span class="atomicNumber">-14</span></h2>
+    <p class="description">Our atmosphere contains an estimated 4,000 trillion tons of nitrogen - that's alot. Nitrogen is not reactive, it has no odour, it is tasteless, and it is colourless. A tad boring, eh?</p>
+    <img src="images/NITROGEN.png" class="spectrum" title="Spectral lines of nitrogen">
+    <p class="statistic right">1,105 PARTS PER MILLION</p>
+  </div>
+  <p class="footer">Source: Arnett, David (1996). Supernovae and Nucleosynthesis (First ed.). Princeton, New Jersey: Princeton University Press. p. 11. ISBN 0-691-01147-8.<br><br>
+  <span class="contact"> If you have a suggestion, please get in touch.
+    <form action="mailto:22jensensebastien@colchsfc.ac.uk">
+      <input type="submit" value="Contact the Author">
+    </form>
+  </span>
+  </p>
 </body>
 
 </html>

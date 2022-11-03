@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+div {
+  margin: auto;
+  width: 70vmin;
+  transition: box-shadow .2s;
+}
+
+div:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.1);
+  border-color: #feb407;
+}
+
+h1 {
+  margin-bottom: 11px;
+}
+
+.header {
+  font-size: 16pt;
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 700;
+  padding-left: 35px;
+  margin-top: 25px;
+  color: #2f2f2f;
+}
+
+.entry {
+  padding-left: 35px;
+  margin-top: 25px;
+  width: 70vmin;
+}
+
+.nameHeading {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-weight: 700;
+  font-family: 'Albert Sans', sans-serif;
+  color: #2f2f2f;
+}
+
+.atomicNumber {
+  color: #b3b3b3;
+}
+
+.rank {
+  padding-top: 15px;
+  color: #ffcc00;
+  font-weight: 900;
+  font-family: 'Albert Sans', sans-serif;
+  letter-spacing: 2px;
+}
+
+.statistic {
+  font-weight: 900;
+  font-family: 'Albert Sans', sans-serif;
+  padding-top: 6px;
+  letter-spacing: 2px;
+  color: #b3b3b3;
+  padding-bottom:11px;
+}
+
+.subtitle {
+  margin-top: 0;
+  font-size: 12pt;
+  padding-bottom: 17px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Albert Sans', sans-serif;
+  color: #5b5b5b;
+}
+
+.borderDefault {
+  border-color: #eeeeee;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+
+.borderHeading {
+  border-top: 6px solid #ffcc00;
+}
+
+.right {
+  text-align: right;
+  padding-right: 35px;
+  padding-left: 0;
+}
+
+.description {
+  padding-top: 6px;
+  padding-bottom: 3px;
+  padding-right: 35px;
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 300;
+  color: #2f2f2f;
+  text-align: justify;
+}
+
+.spectrum {
+  width: 94%;
+  padding-left: 0;
+  border-radius: 10px
+}
+
+.footer {
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  width: 50vmin;
+  margin: auto;
+  color: #b3b3b3;
+}
+
+form {
+  text-align: center;
+  padding-bottom: 20px;
+}

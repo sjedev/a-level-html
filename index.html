@@ -9,14 +9,44 @@
 </head>
 
 <body>
-  <div style="background-color:blue; height:100px; color:white">
-    Hello world
-    <div style="background-color:yellow; height:75px; width:400px; color:green">
-      Spicy Enchilada
+  <div>
+    <h1 class="violetHeading">World of Puppies</h1>
+    <div class="bgContent contentCentred">
+      <p class="violetBody">Spicy Enchilada</p>
+      <p id="demo" class="violetBody">Click to change content using a JavaScript function!</p>
+      <button type="button" onclick=changeText()>Click Me!</button>
+      <p class="violetBody">
+        <a href="https://thekennelclub.org.uk/">Click here for more on puppies</a>
+      </p>
+      <br>
+      <img src="images/dog1.jpg" style="height:160px">
+      <img src="images/dog2.webp" style="height:160px">
     </div>
-  </div>
+    <div class="bgContent"">
+      <ol>
+        <li>German shepherd</li>
+        <li>Doberman</li>
+        <li>Poodle</li>
+        <li>Cocker spaniel</li>
+        <li>Blue heeler</li>
+      </ol>
+      <ul>
+        <li>Donny</li>
+        <li>Leo</li>
+        <li>Mikey</li>
+        <li>Splinter</li>
+        <li>Rafa</li>
+      </ul>
+    </div>
+    <div class="bgContent bordered">
+      <form action="/action_page.php">
+        <input type="text" id="fname" name="fname" placeholder="First name">
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" value="Doe">
+        <input type="submit" value="Submit">
+    </div>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

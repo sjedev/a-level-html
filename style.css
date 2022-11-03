@@ -2,3 +2,41 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+.violetHeading {
+  font-family: 'Lucida Sans Regular';
+  color:darkviolet;
+  font-size:24pt;
+  font-weight:400;
+}
+
+.violetBody {
+  font-family: 'Lucida Sans Regular';
+  color:magenta;
+  font-size:12pt;
+  font-weight:200;
+}
+
+#bgDiv {
+  margin:auto;
+  width:80%;
+  background-color:violet;
+  padding:20px;
+}
+
+.bgContent {
+  margin:20px;
+  width:80%;
+  background-color:lightpink;
+  padding:20px;
+}
+
+.contentCentred{
+  text-align:center;
+}
+
+.bordered{
+  border-color:purple;
+  border-style:double;
+  border-width:20px;
+}

@@ -98,7 +98,8 @@ h1 {
 }
 
 .spectrum {
-  width: 94%;
+  width: 70%;
+  height: 90px;
   padding-left: 0;
   border-radius: 10px
 }

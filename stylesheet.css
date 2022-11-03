@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
+body {
+  background-color: #fffcf5;
+}
+
 div {
   margin: auto;
   width: 70vmin;
@@ -75,6 +79,7 @@ h1 {
   border-style: solid;
   border-width: 2px;
   border-radius: 15px;
+  background-color: white;
 }
 
 .borderHeading {

@@ -78,7 +78,8 @@ h1 {
 }
 
 .borderHeading {
-  border-top: 6px solid #ffcc00;
+  border-top: 7px solid #ffcc00;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .right {
